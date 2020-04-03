@@ -14,9 +14,9 @@ public class MedianAdapterTestSuite {
     @Test
     public void publicationYearMedianTest() {
         //Given
-        Book book1 = new Book("Henryk Sienkiewicz", "Potop", 2008, "001");
-        Book book2 = new Book("Henryk Sienkiewicz", "Ogniem i mieczem", 2003, "002");
-        Book book3 = new Book("Henryk Sienkiewicz", "Pan Wolodyjowski", 2000, "003");
+        Book book1 = new Book("A1", "T1", 2008, "001");
+        Book book2 = new Book("A1", "T2", 2003, "002");
+        Book book3 = new Book("A1", "T3", 2000, "003");
 
         Set<Book> bookSet = new HashSet<>();
         bookSet.add(book1);
