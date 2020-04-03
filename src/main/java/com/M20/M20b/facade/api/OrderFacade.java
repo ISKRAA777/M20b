@@ -13,7 +13,7 @@ import java.math.BigDecimal;
 public class OrderFacade {
     @Autowired
     private ShopService shopService;
-    private static Logger LOGGER = LoggerFactory.getLogger(OrderFacade.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(OrderFacade.class);
 
     public void processOrder(OrderDto order, Long userId) throws OrderProcessingException {
         boolean wasError = false;
