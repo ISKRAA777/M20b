@@ -1,11 +1,10 @@
 package com.M20.M20b.adapter.bookclasifier;
 
-        import com.M20.M20b.adapter.bookclasifier.librarya.Classifier;
-        import com.M20.M20b.adapter.bookclasifier.libraryb.BookSignature;
-
-        import java.util.HashMap;
-        import java.util.Map;
-        import java.util.Set;
+import com.M20.M20b.adapter.bookclasifier.librarya.Classifier;
+import com.M20.M20b.adapter.bookclasifier.libraryb.BookSignature;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 public class MedianAdapter extends MedianAdaptee implements Classifier {
     @Override
